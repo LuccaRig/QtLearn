@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_QtFirstProject_FILE /home/lucca.rigueira/Projects/QT/QtFirstProject/build/Desktop_Qt_6_7_2-Debug/QtFirstProject)
+set(__QT_DEPLOY_TARGET_QtFirstProject_TYPE EXECUTABLE)
