@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>add-folder.png</file>
+        <file>cross.png</file>
+        <file>disk.png</file>
+        <file>document.png</file>
+        <file>edit.png</file>
+        <file>interrogation.png</file>
+        <file>interrogation (1).png</file>
+        <file>time-past.png</file>
+        <file>undo.png</file>
+    </qresource>
+</RCC>
