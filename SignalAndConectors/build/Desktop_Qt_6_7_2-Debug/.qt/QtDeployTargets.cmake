@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_SignalAndConectors_FILE /home/lucca.rigueira/Projects/QT/SignalAndConectors/build/Desktop_Qt_6_7_2-Debug/SignalAndConectors)
+set(__QT_DEPLOY_TARGET_SignalAndConectors_TYPE EXECUTABLE)
