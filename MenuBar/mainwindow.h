@@ -5,6 +5,9 @@
 #include <QMessageBox>
 #include <QPrinter>
 #include <QPrintDialog>
+#include <QFontDialog>
+#include <QColorDialog>
+#include <QFileDialog>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -28,6 +31,12 @@ private slots:
     void on_actionAbout_Qt_triggered();
 
     void on_actionprint_triggered();
+
+    void on_actionFont_triggered();
+
+    void on_actionColor_triggered();
+
+    void on_actionOpen_triggered();
 
 private:
     Ui::MainWindow *ui;

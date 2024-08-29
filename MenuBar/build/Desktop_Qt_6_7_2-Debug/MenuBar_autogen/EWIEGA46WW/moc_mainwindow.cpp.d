@@ -18,6 +18,7 @@
   /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtCore/qbytearrayalgorithms.h \
   /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtCore/qbytearraylist.h \
   /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtCore/qbytearrayview.h \
+  /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtCore/qcalendar.h \
   /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtCore/qchar.h \
   /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtCore/qcompare.h \
   /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtCore/qcompare_impl.h \
@@ -31,9 +32,14 @@
   /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtCore/qcontiguouscache.h \
   /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtCore/qdarwinhelpers.h \
   /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtCore/qdatastream.h \
+  /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtCore/qdatetime.h \
   /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtCore/qdebug.h \
+  /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtCore/qdir.h \
   /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtCore/qendian.h \
   /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtCore/qexceptionhandling.h \
+  /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtCore/qfile.h \
+  /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtCore/qfiledevice.h \
+  /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtCore/qfileinfo.h \
   /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtCore/qflags.h \
   /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtCore/qfloat16.h \
   /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtCore/qforeach.h \
@@ -44,12 +50,14 @@
   /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtCore/qglobalstatic.h \
   /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtCore/qhash.h \
   /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtCore/qhashfunctions.h \
+  /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtCore/qiodevice.h \
   /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtCore/qiodevicebase.h \
   /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtCore/qiterable.h \
   /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtCore/qiterator.h \
   /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtCore/qlatin1stringview.h \
   /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtCore/qline.h \
   /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtCore/qlist.h \
+  /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtCore/qlocale.h \
   /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtCore/qlogging.h \
   /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtCore/qmalloc.h \
   /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtCore/qmap.h \
@@ -101,6 +109,7 @@
   /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtCore/qtdeprecationmarkers.h \
   /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtCore/qtenvironmentvariables.h \
   /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtCore/qtextstream.h \
+  /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtCore/qtimezone.h \
   /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtCore/qtmetamacros.h \
   /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtCore/qtnoop.h \
   /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtCore/qtpreprocessorsupport.h \
@@ -111,6 +120,7 @@
   /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtCore/qtversionchecks.h \
   /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtCore/qtypeinfo.h \
   /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtCore/qtypes.h \
+  /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtCore/qurl.h \
   /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtCore/qutf8stringview.h \
   /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtCore/qvariant.h \
   /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtCore/qvarlengtharray.h \
@@ -153,10 +163,16 @@
   /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtPrintSupport/qtprintsupport-config.h \
   /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtPrintSupport/qtprintsupportexports.h \
   /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtPrintSupport/qtprintsupportglobal.h \
+  /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtWidgets/QColorDialog \
+  /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtWidgets/QFileDialog \
+  /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtWidgets/QFontDialog \
   /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtWidgets/QMainWindow \
   /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtWidgets/QMessageBox \
+  /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtWidgets/qcolordialog.h \
   /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtWidgets/qdialog.h \
   /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtWidgets/qdialogbuttonbox.h \
+  /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtWidgets/qfiledialog.h \
+  /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtWidgets/qfontdialog.h \
   /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtWidgets/qmainwindow.h \
   /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtWidgets/qmessagebox.h \
   /home/lucca.rigueira/Qt/6.7.2/gcc_64/include/QtWidgets/qsizepolicy.h \
@@ -185,6 +201,7 @@
   /usr/include/c++/9/bits/basic_string.h \
   /usr/include/c++/9/bits/basic_string.tcc \
   /usr/include/c++/9/bits/char_traits.h \
+  /usr/include/c++/9/bits/codecvt.h \
   /usr/include/c++/9/bits/concept_check.h \
   /usr/include/c++/9/bits/cpp_type_traits.h \
   /usr/include/c++/9/bits/cxxabi_forced.h \
@@ -194,6 +211,10 @@
   /usr/include/c++/9/bits/exception.h \
   /usr/include/c++/9/bits/exception_defines.h \
   /usr/include/c++/9/bits/exception_ptr.h \
+  /usr/include/c++/9/bits/fs_dir.h \
+  /usr/include/c++/9/bits/fs_fwd.h \
+  /usr/include/c++/9/bits/fs_ops.h \
+  /usr/include/c++/9/bits/fs_path.h \
   /usr/include/c++/9/bits/functexcept.h \
   /usr/include/c++/9/bits/functional_hash.h \
   /usr/include/c++/9/bits/hash_bytes.h \
@@ -205,8 +226,11 @@
   /usr/include/c++/9/bits/list.tcc \
   /usr/include/c++/9/bits/locale_classes.h \
   /usr/include/c++/9/bits/locale_classes.tcc \
+  /usr/include/c++/9/bits/locale_conv.h \
   /usr/include/c++/9/bits/locale_facets.h \
   /usr/include/c++/9/bits/locale_facets.tcc \
+  /usr/include/c++/9/bits/locale_facets_nonio.h \
+  /usr/include/c++/9/bits/locale_facets_nonio.tcc \
   /usr/include/c++/9/bits/localefwd.h \
   /usr/include/c++/9/bits/memoryfwd.h \
   /usr/include/c++/9/bits/move.h \
@@ -218,12 +242,14 @@
   /usr/include/c++/9/bits/postypes.h \
   /usr/include/c++/9/bits/predefined_ops.h \
   /usr/include/c++/9/bits/ptr_traits.h \
+  /usr/include/c++/9/bits/quoted_string.h \
   /usr/include/c++/9/bits/range_access.h \
   /usr/include/c++/9/bits/refwrap.h \
   /usr/include/c++/9/bits/shared_ptr.h \
   /usr/include/c++/9/bits/shared_ptr_atomic.h \
   /usr/include/c++/9/bits/shared_ptr_base.h \
   /usr/include/c++/9/bits/specfun.h \
+  /usr/include/c++/9/bits/sstream.tcc \
   /usr/include/c++/9/bits/std_abs.h \
   /usr/include/c++/9/bits/std_function.h \
   /usr/include/c++/9/bits/stl_algo.h \
@@ -262,6 +288,7 @@
   /usr/include/c++/9/climits \
   /usr/include/c++/9/clocale \
   /usr/include/c++/9/cmath \
+  /usr/include/c++/9/codecvt \
   /usr/include/c++/9/cstddef \
   /usr/include/c++/9/cstdint \
   /usr/include/c++/9/cstdio \
@@ -281,14 +308,17 @@
   /usr/include/c++/9/ext/numeric_traits.h \
   /usr/include/c++/9/ext/string_conversions.h \
   /usr/include/c++/9/ext/type_traits.h \
+  /usr/include/c++/9/filesystem \
   /usr/include/c++/9/functional \
   /usr/include/c++/9/initializer_list \
+  /usr/include/c++/9/iomanip \
   /usr/include/c++/9/ios \
   /usr/include/c++/9/iosfwd \
   /usr/include/c++/9/istream \
   /usr/include/c++/9/iterator \
   /usr/include/c++/9/limits \
   /usr/include/c++/9/list \
+  /usr/include/c++/9/locale \
   /usr/include/c++/9/map \
   /usr/include/c++/9/memory \
   /usr/include/c++/9/new \
@@ -300,6 +330,7 @@
   /usr/include/c++/9/pstl/glue_memory_defs.h \
   /usr/include/c++/9/pstl/glue_numeric_defs.h \
   /usr/include/c++/9/ratio \
+  /usr/include/c++/9/sstream \
   /usr/include/c++/9/stdexcept \
   /usr/include/c++/9/streambuf \
   /usr/include/c++/9/string \
@@ -328,6 +359,7 @@
   /usr/include/endian.h \
   /usr/include/errno.h \
   /usr/include/features.h \
+  /usr/include/libintl.h \
   /usr/include/limits.h \
   /usr/include/linux/errno.h \
   /usr/include/linux/limits.h \
@@ -417,7 +449,9 @@
   /usr/include/x86_64-linux-gnu/c++/9/bits/error_constants.h \
   /usr/include/x86_64-linux-gnu/c++/9/bits/gthr-default.h \
   /usr/include/x86_64-linux-gnu/c++/9/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/9/bits/messages_members.h \
   /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/9/bits/time_members.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
   /usr/include/x86_64-linux-gnu/sys/cdefs.h \

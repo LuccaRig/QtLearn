@@ -47,3 +47,34 @@ void MainWindow::on_actionprint_triggered()
 
 }
 
+
+void MainWindow::on_actionFont_triggered()
+{
+    bool ok;
+
+    QFont font = QFontDialog::getFont(&ok, QFont("Helvetica[Cronyx]"), this);
+
+    if(ok) {
+        ui->textEdit->setFont(font);
+    }
+}
+
+
+void MainWindow::on_actionColor_triggered()
+{
+    bool ok;
+
+    QColor color = QColorDialog::getColor(Qt::black, this);
+    if(&ok) {
+        ui->textEdit->setTextColor(color);
+    }
+}
+
+
+void MainWindow::on_actionOpen_triggered()
+{
+    QString fileName = QFileDialog::getOpenFileName(this,"Open A File", "/home/");
+    ui->textEdit->setText(fileName);
+
+}
+
