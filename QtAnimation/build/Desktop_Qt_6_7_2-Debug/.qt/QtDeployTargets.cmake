@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_QtAnimation_FILE /home/lucca.rigueira/Projects/QT/QtAnimation/build/Desktop_Qt_6_7_2-Debug/QtAnimation)
+set(__QT_DEPLOY_TARGET_QtAnimation_TYPE EXECUTABLE)

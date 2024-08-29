@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-b9a9412dda434724939d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "QtAnimation",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "QtAnimation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QtAnimation-Debug-ee4d5c333b67df56792b.json",
+					"name" : "QtAnimation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QtAnimation_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QtAnimation_autogen-Debug-b46ccc8831977a64219e.json",
+					"name" : "QtAnimation_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QtAnimation_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QtAnimation_autogen_timestamp_deps-Debug-6396739d1a8c307a774b.json",
+					"name" : "QtAnimation_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lucca.rigueira/Projects/QT/QtAnimation/build/Desktop_Qt_6_7_2-Debug",
+		"source" : "/home/lucca.rigueira/Projects/QT/QtAnimation"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
